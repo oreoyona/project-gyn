@@ -1,0 +1,102 @@
+{
+    "dossier 1": {
+        "nom": "Anne Kita",
+        "age": "25",
+        "formule obstetricale" : "1200",
+        "diagnostic": "Dystocie de demarrage",
+        "TV": "col long, ant, dilate a 1cm",
+        "paraclinique": ""
+    },
+
+    "dossier 2": {
+        "nom": "Annie Modi",
+        "age": "27",
+        "formule obstetricale" : "1200",
+        "diagnostic": "Dystocie de demarrage",
+        "TV": "col long, ant, dilate a 2cm",
+        "paraclinique": ""
+    },
+
+    "dossier 3": {
+        "nom": "Anne Kita",
+        "age": "25",
+        "formule obstetricale" : "1200",
+        "diagnostic": "Dystocie de demarrage",
+        "TV": "col long, post, dilate a 2cm",
+        "paraclinique": ""
+    },
+
+    "dossier 4": {
+        "nom": "Bonita Kita",
+        "age": "35",
+        "formule obstetricale" : "3411",
+        "diagnostic": "Dystocie de demarrage",
+        "TV": "col long, ant, dilate a 1cm",
+        "paraclinique": ""
+    },
+
+    "dossier 5": {
+        "nom": "Kadima Kita",
+        "age": "29",
+        "formule obstetricale" : "3511",
+        "diagnostic": "Dystocie dynamique",
+        "TV": "col efface a 50%, ant, dilate a 6cm",
+        "paraclinique": ""
+    },
+    "dossier 6": {
+        "nom": "Gloria Musairi",
+        "age": "25",
+        "formule obstetricale" : "1200",
+        "diagnostic": "Dystocie de demarrage",
+        "TV": "col long, ant, dilate a 1cm",
+        "paraclinique": ""
+    },
+    "dossier 7": {
+        "nom": "Anne Kita",
+        "age": "25",
+        "formule obstetricale" : "1200",
+        "diagnostic": "Dystocie de demarrage",
+        "TV": "col long, ant, dilate a 1cm",
+        "paraclinique": ""
+    },
+    "dossier 9": {
+        "nom": "Anne Kita",
+        "age": "25",
+        "formule obstetricale" : "1200",
+        "diagnostic": "Dystocie de demarrage",
+        "TV": "col long, ant, dilate a 1cm",
+        "paraclinique": ""
+    },
+    "dossier 10": {
+        "nom": "Anne Kita",
+        "age": "25",
+        "formule obstetricale" : "1200",
+        "diagnostic": "Dystocie de demarrage",
+        "TV": "col long, ant, dilate a 1cm",
+        "paraclinique": ""
+    },
+    "dossier 11": {
+        "nom": "Anne Kita",
+        "age": "25",
+        "formule obstetricale" : "1200",
+        "diagnostic": "Dystocie de demarrage",
+        "TV": "col long, ant, dilate a 1cm",
+        "paraclinique": ""
+    },
+    "dossier 12": {
+        "nom": "Anne Kita",
+        "age": "25",
+        "formule obstetricale" : "1200",
+        "diagnostic": "Dystocie de demarrage",
+        "TV": "col long, ant, dilate a 1cm",
+        "paraclinique": ""
+    },
+    "dossier 14": {
+        "nom": "Anne Kita",
+        "age": "25",
+        "formule obstetricale" : "1200",
+        "diagnostic": "Dystocie de demarrage",
+        "TV": "col long, ant, dilate a 1cm",
+        "paraclinique": ""
+    }
+}

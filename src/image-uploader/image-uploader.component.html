@@ -1,0 +1,17 @@
+<form enctype="multipart/form-data"  method="post">
+    <input type="file" accept=".jpeg, .jpg, .png" multiple hidden #fileInput (change)="uploadFile($event)" name="file">
+</form>
+<ng-container>
+    @if(files.length > 0){
+        <mat-card class="card">
+            @for(file of files; track file.name){
+                <mat-card-content>{{file.name}}</mat-card-content>
+            }
+           
+        </mat-card>
+    }
+</ng-container>
+
+  
+
+<button mat-stroked-button color="primary" class="upload-button white-btn" (click)="fileInput.click()">Upload</button>
