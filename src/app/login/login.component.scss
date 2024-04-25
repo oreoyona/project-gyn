@@ -45,14 +45,16 @@ mat-card-content {
 }
 
 input{
-    background-color: #202532 !important;
-    padding: 13px 5px;
-    border-radius: 10px;
-    min-width: 100%;
-    outline: none;
-    
- 
+    color: white !important;
 }
 ::placeholder{
-    color: white;
+    color: rgba(255, 255, 255, 0.226) !important;
+}
+
+mat-icon{
+    color: #2A3343;
+}
+
+.lock-open{
+    display: none;
 }
