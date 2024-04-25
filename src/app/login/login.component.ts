@@ -40,7 +40,9 @@ export class LoginComponent {
 
   @Output() submitEM = new EventEmitter();
 
-
+  
+  bgImage = "/assets/bg-1.webp";
+  
     constructor(private route: Router){
 
     }
