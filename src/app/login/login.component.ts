@@ -16,6 +16,7 @@ import { CommonModule} from '@angular/common';
   styleUrl: './login.component.scss'
 })
 export class LoginComponent {
+  project_title = ""
   showPassword = false; 
 
   togglePasswordVisibility() {
