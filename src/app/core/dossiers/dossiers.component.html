@@ -1,0 +1,18 @@
+<mat-nav-list>
+  <a mat-list-item >
+    <span matListItemTitle class="list-title">Compléter un dossier</span>
+    <span matLine>Ajouter des éléments comme des résultats d'examens à un dossier déjàcexistant</span>
+  </a>
+
+  <a mat-list-item (click)="changeRoute()">
+    <span matListItemTitle class="list-title">Nouveau dossier classique</span>
+    <span matLine>Ajouter un nouveau dossier classique</span>
+  </a>
+
+  <a mat-list-item (click)="openLink($event)">
+    <span matListItemTitle class="list-title">Nouveau dossier spécifique</span>
+    <span matLine>Choisissez un modèle de dossier en fonction des maladies les plus récurrentes</span>
+  </a>
+
+
+</mat-nav-list>

@@ -1,0 +1,17 @@
+@import "../../colors.scss";
+
+
+mat-nav-list{
+    *{
+        color: $accent-3 !important;
+        
+    }
+
+    
+}
+
+span:not(.list-title){
+    font-weight: 700;
+    color: $bg-3 !important;
+}
+

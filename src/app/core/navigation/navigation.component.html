@@ -1,14 +1,14 @@
 <div class="icons">
     <a [routerLink]="[{outlets: {dashboard: 'home'}}]" routerLinkActive="active">
         <mat-icon aria-hidden="false" [matRippleRadius]="25" [matRippleCentered]="true" matRipple aria-label="home icon"
-            #homeB class="icon" fontIcon="home">
+        routerLinkActive  class="icon" fontIcon="home">
         </mat-icon>
     </a>
 
-    <a [routerLink]="[{outlets: {dashboard: 'add'}}]" routerLinkActive="active" #add="routerLinkActive">
+    <a [routerLink]="[{outlets: {dashboard: 'add'}}]" routerLinkActive="active" >
         <mat-icon aria-hidden="false" [matRippleRadius]="25" [matRippleCentered]="true" matRipple aria-label="Add icon"
             class="icon" fontIcon="add"
-            routerLinkActive #add="routerLinkActive"></mat-icon>
+            routerLinkActive #add="routerLinkActive" (click)="openBottomSheet()"></mat-icon>
     </a>
 
     <a [routerLink]="[{outlets: {dashboard: 'list'}}]" routerLinkActive="active">
@@ -18,6 +18,4 @@
         </mat-icon>
 
     </a>
-
-
 </div>
