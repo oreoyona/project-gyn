@@ -13,7 +13,7 @@ import {AsyncPipe} from '@angular/common';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {provideNativeDateAdapter} from '@angular/material/core';
 
-import { ImageUploaderComponent } from '../../image-uploader/image-uploader.component';
+import { ImageUploaderComponent } from '../../../image-uploader/image-uploader.component';
 import { map } from 'rxjs';
 @Component({
   selector: 'app-add',

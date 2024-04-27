@@ -1,38 +1,18 @@
+@import "../colors.scss";
+
 .main-section{
     height: 100%;
-}
-
-.page{
-    min-height: 90vh;
-
-}
-label{
-    color: #5d6ccd;
-}
-
-mat-card{
-    padding: 50px;
-    color: #5d6ccd;
-    background-color: #dbe0ff;
-   
-}
-
-.first{
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-}
-
-.add-btn-container{
-    display: flex;
-    position: absolute;
-    bottom: 70px;
-    right: 20px;
-}
-.share-btn-container{
-    position: fixed;
-    right: 2px;
-    top: 50%;
-    bottom: -50%;
-   
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 10vh auto 10vh;
+    main{
+      
+        overflow: auto;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+        background-color: aquamarine;
+        width: 100%;
+    }
 }
