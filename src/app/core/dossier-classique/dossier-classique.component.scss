@@ -1,0 +1,30 @@
+@import "../../colors.scss";
+
+header{
+    padding: 20px;
+    h2{
+        color: $accent-3;
+        
+    }
+
+
+}
+.main-section{
+    padding: 20px;
+}
+
+label{
+    color: $accent-3 !important;
+}
+
+#stepper{
+    background-color: transparent !important;
+    color: $accent-3 !important;
+}
+:host{
+    overflow: auto;
+}
+
+
+   
+

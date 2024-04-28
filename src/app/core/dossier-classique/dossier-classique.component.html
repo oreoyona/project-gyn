@@ -1,1 +1,98 @@
-<p>dossier-classique works!</p>
+<section class="main-section">
+    <header>
+        <h2>
+            Nouveau Dossier classique
+        </h2>
+    </header>
+    <mat-stepper orientation="vertical" #stepper color="accent" id="stepper">
+        <form [formGroup]="DossierClassique" #dossierForm>
+            <mat-step [stepControl]="dossierForm['AnamneseFormGroup']">
+                <ng-template matStepLabel>Anamnèse</ng-template>
+                <section class="anamnese">
+
+
+                </section>
+            </mat-step>
+
+            <mat-step [stepControl]="dossierForm['ExamenPhysiqueFormGroup']">
+                <ng-template matStepLabel>Examen Physique</ng-template>
+                <section class="examen-physique" formGroupName="ExamenPhysiqueFormGroup">
+
+                    <div class="tete-cou" formGroupName="teteCou">
+                        <h5>Examen de la tête et du cou</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="cbi" formControlName="cbi">
+                            <label class="form-check-label" for="cbi">Ictérique</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="cpp" formControlName="cpp">
+                            <label for="cpp" class="form-check-label">Pale</label>
+                        </div>
+
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="deshydratee"
+                                formControlName="deshydratee">
+                            <label for="deshydratee" class="form-check-label">Déshydratée</label>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="thorax" formGroupName="thorax">
+                        <h5>Examen du thorax</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="asymetrique"
+                                formControlName="asymetrique">
+                            <label class="form-check-label" for="asymetrique">Asymétrique</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="polypnee" formControlName="polypnee">
+                            <label class="form-check-label" for="polypnee">Polypnée</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tachycardie"
+                                formControlName="tachycardie">
+                            <label class="form-check-label" for="tachycardie">Tachycardie</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="souffleCardiaque"
+                                formControlName="souffleCardiaque">
+                            <label class="form-check-label" for="souffleCardiaque">Souffle Cardiaque</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="crepitants"
+                                formControlName="crepitants">
+                            <label class="form-check-label" for="crepitants">Crépitants</label>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="abdomen" >
+                        <h5>Examen de l'abdomen</h5>
+                        <mat-form-field>
+                            <input type="text" matInput formControlName="abdomen"
+                                placeholder="Ex. Sensible">
+                        </mat-form-field>
+                    </div>
+
+                    <div class="ms">
+                        <h5>Membres sup</h5>
+                        <mat-form-field>
+                            <input type="email" matInput formControlName="ms"
+                                placeholder="Ex. Sensible">
+                        </mat-form-field>
+                    </div>
+                </section>
+            </mat-step>
+        </form>
+    </mat-stepper>
+{{DossierClassique.value | json }}
+</section>
