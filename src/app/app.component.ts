@@ -16,13 +16,14 @@ import {provideNativeDateAdapter} from '@angular/material/core';
 
 import { map } from 'rxjs';
 import { ImageUploaderComponent } from '../image-uploader/image-uploader.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, MatButtonModule, AsyncPipe, ImageUploaderComponent, MatDatepickerModule,RouterOutlet, ReactiveFormsModule,MatInputModule, MatFormField, FormsModule, MatIconModule, MatStepperModule],
+  imports: [CommonModule, MatButtonModule, AsyncPipe, ImageUploaderComponent, MatDatepickerModule,RouterOutlet, ReactiveFormsModule,MatInputModule, MatFormField, FormsModule, MatIconModule, MatStepperModule, HttpClientModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
-  providers: [provideNativeDateAdapter()]
+  providers: [provideNativeDateAdapter(), HttpClient]
 })
 export class AppComponent {
   title = 'project-gyn';

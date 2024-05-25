@@ -1,5 +1,10 @@
 @import "../../colors.scss";
-
+@media screen and (min-width: 800px) {
+    section{
+        display: flex !important;
+        gap: 15px !important;
+    }
+}
 header{
     padding: 20px;
     h2{
@@ -23,6 +28,9 @@ label{
 }
 :host{
     overflow: auto;
+}
+.saveBtn{
+    margin: 20px 0;
 }
 
 
